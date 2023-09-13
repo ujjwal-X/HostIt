@@ -1,0 +1,118 @@
+@font-face {
+  font-family: main;
+  src: url("./fonts/fontawesome-webfont.eot")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: main;
+}
+
+.navbar {
+  background-color: #020230;
+}
+
+/* carousel */
+.car-head {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#carouselExample {
+  background-color: #020230;
+  color: white;
+}
+
+.service-img {
+  height: 60px;
+  width: 60px;
+  background-color: #53bfe1;
+  border-radius: 60%;
+}
+
+.orange:hover {
+  background-color: #ffc107;
+}
+
+.img-box {
+  background-color: #53bfe1;
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+
+
+.bg-main {
+  background-color: #020230;
+}
+
+.priceHead {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.pricing-btn {
+  margin: 10px 0 0 30px;
+}
+
+/* testimonial csss */
+.client {
+  width: 100%;
+  height: 100%;
+  background: #7F00FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #020230, #53bfe1);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #020230, #53bfe1);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-icon i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+  color: #fff;
+  height: auto;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+/* ends here testimonial */
+
+.card:hover {
+  background-color: #03a7d3;
+  color: white;
+}
+
+.card {
+  border-radius: 30px;
+}
